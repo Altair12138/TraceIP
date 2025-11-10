@@ -1,2 +1,12 @@
-# TraceIP
-a nettool consist of traceroute and ip geoinfo
+# traceip - 路由追踪+IP地理定位一体化工具
+用 Go 开发的轻量命令行工具，结合 traceroute 和 IP 地理定位，直观展示数据包传输路径的每个节点位置和运营商。
+
+## 核心特点
+- 🚀 单命令直达：无需复杂配置，直接追踪域名/IP；
+- 🗺️ 自动定位：每个路由节点自动查询地理信息（国家/城市/运营商）；
+- 🎨 友好输出：颜色区分成功/超时节点，排版清晰；
+
+## 用法示例
+### 1. 基础追踪（域名）
+```bash
+traceip www.baidu.com
