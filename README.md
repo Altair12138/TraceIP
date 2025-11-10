@@ -10,3 +10,7 @@
 ### 1. 基础追踪（域名）
 ```bash
 traceip www.baidu.com
+
+### 2. 追踪IP
+```bash
+traceip 8.8.8.8
